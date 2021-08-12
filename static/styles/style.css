@@ -80,11 +80,13 @@
   color: rgba(255, 255, 255, 0.5);
 }
 [data-am-fadeshow] .fs-next-btn:hover, [data-am-fadeshow] .fs-prev-btn:hover {
+  font-size: 3vw;
   background-color: rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 500px) {
   [data-am-fadeshow] .fs-next-btn:hover, [data-am-fadeshow] .fs-prev-btn:hover {
     background-color: rgba(255, 255, 255, 0);
+    font-size: 3vw;
   }
 }
 [data-am-fadeshow] .fs-prev-btn {
