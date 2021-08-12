@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>shery bibery</title>
+  <link rel="icon" href="{{ url_for('static',filename='images/cherry_icon.png') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+  <style>
+    @font-face {
+      font-family: zeta-font;
+      src: url({{ url_for('static',filename='fonts/ZETAFONTS.OTF') }});
+    }
+</style>
+
+</head>
+<body>
+<div class="container">
+
+	<div data-am-fadeshow="next-prev-navigation">
+
+		<!-- Radio -->
+		<input type="radio" name="radio-show" id="slide-1" />
+		<input type="radio" name="radio-show" id="slide-2" />
+    <input type="radio" name="radio-show" id="slide-3" />
+
+		<!-- Slides -->
+		<div class="slides-one">
+			<div class="page-slide" style="background-image: url({{ url_for('static',filename='images/cherry_pic.jfif') }});">
+				<div style="position: absolute; top: 70%; left: 80%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 0px rgba(0,0,0,0.5);">
+					<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 8vw; color: #ffffff; font-weight: bold; line-height: 90%; font-family: zeta-font;">shery bibery</h1>
+					<p style="font-size: 2vw; font-weight: 100; margin-top: 1; font-family: zeta-font;">You have no plan or data - we can bullshit it out!</p>
+				</div>
+			</div>
+
+      <div class="page-slide" style="background-image: url({{ url_for('static',filename='images/cherry_pic_2.jpg') }});">
+				<div style="position: absolute; top: 40%; left: 36%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 0px rgba(0,0,0,0.5);">
+					<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 3vw; color: #ffffff; font-weight: bold; line-height: 90%; font-family: zeta-font; text-align: justify;">Content Marketing</h1>
+					<p style="font-size: 1.4vw; font-weight: 100; margin-top: 1; font-family: zeta-font; text-align: justify;">You know nobody reads social media posts. We will use the latest buzzwords and corporate slang to make your posts more engaging.</p>
+          <h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 3vw; color: #ffffff; font-weight: bold; line-height: 90%; font-family: zeta-font; text-align: justify;">Presentations</h1>
+          <p style="font-size: 1.4vw; font-weight: 100; margin-top: 1; font-family: zeta-font; text-align: justify;">We help people and companies achieve their goals through presentations that work. In other words, we are the people who put the marketing bullshit in your presentations, which make them sell more.</p>
+          <h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 3vw; color: #ffffff; font-weight: bold; line-height: 90%; font-family: zeta-font; text-align: justify;">Bullshit statistics</h1>
+          <p style="font-size: 1.4vw; font-weight: 100; margin-top: 1; font-family: zeta-font; text-align: justify;">You have data that you can't make sense of. We manipulate your data (whiteout changing it) to have it show the results you want. Of course, we don't look at bad results. They don't get you promoted.</p>
+				</div>
+			</div>
+
+      <div class="page-slide" style="background-image: url({{ url_for('static',filename='images/cherry_pic_2.jpg') }});">
+				<div style="position: absolute; top: 76%; left: 20%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 0px rgba(0,0,0,0.5);">
+					<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 8vw; color: #ffffff; font-weight: bold; line-height: 90%; font-family: zeta-font;">Contacts</h1>
+					<p style="font-size: 2vw; font-weight: 100; margin-top: 1; font-family: zeta-font; text-align: justify;">email - stoqnmuhata@gmail.com</p>
+          <p style="font-size: 2vw; font-weight: 100; margin-top: 1; font-family: zeta-font; text-align: justify;">instagram - <a href="https://www.youtube.com/watch?v=sNOJ0fPH3yI">@instaprofile</a></p>
+				</div>
+			</div>
+    </div>
+
+		<!-- Quick Navigation -->
+		<div class="fs-quick-nav">
+			<label class="fs-quick-btn" for="slide-1"></label>
+			<label class="fs-quick-btn" for="slide-2"></label>
+      <label class="fs-quick-btn" for="slide-3"></label>
+		</div>
+
+		<!-- Prev Navigation -->
+		<div class="fs-prev-nav">
+			<label class="fs-prev-btn" for="slide-1"></label>
+			<label class="fs-prev-btn" for="slide-2"></label>
+      <label class="fs-prev-btn" for="slide-3"></label>
+		</div>
+
+		<!-- Next Navigation -->
+		<div class="fs-next-nav">
+			<label class="fs-next-btn" for="slide-1"></label>
+			<label class="fs-next-btn" for="slide-2"></label>
+      <label class="fs-next-btn" for="slide-3"></label>
+		</div>
+
+	</div>
+
+</div>
+<!-- partial -->
+
+</body>
+</html>
